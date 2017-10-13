@@ -35,7 +35,7 @@ You can use what is provided here as a template and customize it as needed. _(Se
 
 * Check in your threat model to your code repo, along with your other product artifacts. 
 * Version it to track changes.
-* Diff it see how remediation has progressed or if issues design flaws were re-introduced.
+* Diff it to see how remediation has progressed or if design flaws were re-introduced.
 
 ## Example
 ![alt text](https://github.com/108bots/threatmodel-as-code/blob/master/tmac-example-uml.png)
