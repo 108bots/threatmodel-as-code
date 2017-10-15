@@ -8,7 +8,7 @@ As a security engineer, tradionally you took out your [Microsoft threat model to
 
 ## Threat model using PlantUML
 
-Once your component diagram is created using PlanUML, you capture your threat model in the very same diagram by: 
+Once your component diagram is created using PlantUML, you capture your threat model in the very same diagram by: 
 
 * Annotating objects and links, 
 * Color coding them, 
@@ -27,9 +27,7 @@ You can use it in a few ways:
 
 2. Show your dev/architect how to use PlantUML, convince them to create architecture diagrams. You then overlay your threat model on top by adding few more lines of code of your own that capture your threat model Q&As, risk and recommendations.  
 
-3. Get your dev/architect to use your Threat model embededed template PlantUML to draw their architecture diagrams, answer your questions and generate the initial threat model themselves. You can review
-
-You can use what is provided here as a template and customize it as needed. _(See tmac-template-uml.* for the template and tmac-example-uml.* for full example)_
+3. Get your dev/architect to use your Threat model embededed template PlantUML to draw their architecture diagrams, answer your questions and generate the initial threat model themselves. You can then review it and modify as necessary.
 
 ## Benefits
 
@@ -38,4 +36,6 @@ You can use what is provided here as a template and customize it as needed. _(Se
 * Diff it to see how remediation has progressed or if design flaws were re-introduced.
 
 ## Example
+
+You can use what is provided here as a template and customize it as needed. _(See tmac-template-uml.* for the template and tmac-example-uml.* for full example)_
 ![alt text](https://github.com/108bots/threatmodel-as-code/blob/master/tmac-example-uml.png)
