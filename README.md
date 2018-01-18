@@ -20,10 +20,10 @@ Once your component diagram is created using PlantUML, you capture your threat m
 You can use it in a few ways:
 
 1. You are in a threat model discussion with your dev/architect and they don't have an architecture diagram ready. Rather than whiteboarding or taking notes on a napkin. Write a few lines of code to capture the architecture and then,
-* Ask your threat modeling questions
-* Annotate your components based on the answers you receive and risk you identify
-* Provide your recommendations with notes, links etc
-* Check it in to your repo
+a. Ask your threat modeling questions
+b. Annotate your components based on the answers you receive and risk you identify
+c. Provide your recommendations with notes, links etc
+d. Check it in to your repo
 
 2. Show your dev/architect how to use PlantUML, convince them to create architecture diagrams. You then overlay your threat model on top by adding few more lines of code of your own that capture your threat model Q&As, risk and recommendations.  
 
@@ -39,3 +39,7 @@ You can use it in a few ways:
 
 You can use what is provided here as a template and customize it as needed. _(See tmac-template-uml.* for the template and tmac-example-uml.* for full example)_
 ![alt text](https://github.com/108bots/threatmodel-as-code/blob/master/tmac-example-uml.png)
+
+## Next Steps
+
+Automate Steps 1b and 1c - Parse the threat model questions' responses from the UML and annotate the UML with the risk and recommendations
